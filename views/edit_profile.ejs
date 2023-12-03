@@ -1,0 +1,38 @@
+<!-- edit_profile.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edit Profile</title>
+  <!-- Include your CSS stylesheets here -->
+</head>
+<body>
+
+  <!-- Your navigation bar or header can go here -->
+
+  <div class="container">
+    <h2>Edit Profile</h2>
+    <form action="/edit_profile" method="post" enctype="multipart/form-data">
+      <!-- Input for profile image -->
+      <label for="profileImage">Profile Image:</label>
+      <input type="file" name="profileImage" accept="image/*" />
+      
+      <!-- Input for tagline -->
+      <label for="tagline">Tagline:</label>
+      <input type="text" name="tagline" />
+
+      <!-- Input for description -->
+      <label for="description">Description:</label>
+      <textarea name="description" rows="4"></textarea>
+
+      <!-- Submit button -->
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+
+  <!-- Your footer or additional content can go here -->
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    padding: auto;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-links {
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .navbar-links a {
+    font-weight:bold;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  .navbar-search{
+    background-color: lightgrey;
+    border-radius: 32px;
+    padding: 10px 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-search input {
+    background-color: lightgrey;
+    border: none;
+    text-decoration: none;
+    width: 40vw;
+  }
+  .second-part{
+    display: flex;
+    color: rgb(114, 114, 114);
+  }
+  .second-first-part{
+    height:larger;
+    padding-right: 5px;
+  }
+  .icon-links{
+    display: flex;
+    width: 20vh;
+    align-items: center;
+  }
+
+  .notification a{
+    margin-left: 3px;
+    padding: 7px;
+
+  }
+
+  .notification :hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 50%;
+  }
+
+
+  .comments a{
+    margin-left: 3px;
+    padding: 7px;
+
+  }
+
+  .comments :hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 50%;
+  }
+
+  .profile-icon :hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 50%;
+  }
+
+  .profile-icon a{
+    margin-left: 3px;
+    padding: 9px;
+
+  }
+  .profile-icon a img{
+    height: 35px;
+    border: black solid;
+    border-radius: 50%;
+  }
+
+  .logout :hover{
+    background-color:rgb(245, 22, 22);
+    border-radius: 10px;
+    color: white;
+  }
+
+  .logout a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 15px;
+    font-weight: bold;
+  }
+
+  .mycontainer {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mycard {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .username {
+    font-size: 18px;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .tagline,
+  .description {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f30d19;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    min-width:80%;
+  }
+  
+  .button:hover {
+    background-color: #98171e;
+  }
+  
+  .alert{
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      min-width:80%;
+      margin:5px
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:start;
+  justify-content: space-evenly;
+}
+
+.posts{
+  padding-left: 42%;
+  font-size: larger;
+  font-weight: bold;
+}
