@@ -1,15 +1,17 @@
 {
-    "version":2,
-    "builds":[
-        {
-            "src":"./index.js",
-            "use":"@vercel/node"
-        }
+    "version": 2,
+    "builds": [
+      { "src": "app.js", "use": "@vercel/node" }
     ],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest":"/"
-        }
+    "routes": [
+      { "src": "/", "dest": "app.js" },
+      { "src": "/profile", "dest": "app.js" },
+      { "src": "/register", "dest": "app.js" },
+      { "src": "/login", "dest": "app.js" },
+      { "src": "/logout", "dest": "app.js" },
+      { "src": "/feed", "dest": "app.js" },
+      { "src": "/upload", "dest": "app.js" },
+      { "src": "/edit_profile", "dest": "app.js" }
     ]
-}
+  }
+  
